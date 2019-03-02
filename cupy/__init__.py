@@ -4,7 +4,7 @@ import sys
 import numpy
 import six
 
-from cupy import _version
+# from cupy import _version
 
 
 try:
@@ -40,7 +40,7 @@ def is_available():
     return cuda.is_available()
 
 
-__version__ = _version.__version__
+__version__ = '6.0.0b3'
 
 
 from cupy import binary  # NOQA
